@@ -8,7 +8,6 @@ import { Link, useNavigate } from "react-router";
 import { toast } from "sonner";
 import { useAuthStore } from "@/auth/store/auth.store";
 import { useState, type SubmitEvent } from "react";
-import { CanSoda } from "lucide-react";
 
 export const RegisterPage = ({
   className,
