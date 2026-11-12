@@ -8,6 +8,7 @@ import { Link, useNavigate } from "react-router";
 import { toast } from "sonner";
 import { useAuthStore } from "@/auth/store/auth.store";
 import { useState, type SubmitEvent } from "react";
+import { CanSoda } from "lucide-react";
 
 export const RegisterPage = ({
   className,
@@ -32,6 +33,7 @@ export const RegisterPage = ({
 
     const isValid = await register(email, password, fullName);
 
+    
     if (isValid) {
       navigate('/');
       return;
@@ -40,7 +42,7 @@ export const RegisterPage = ({
       toast.error('Correo o/y contraseña no válidos')
     }
 
-
+console.log(isPosting)
   }
 
   return (

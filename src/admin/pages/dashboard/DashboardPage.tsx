@@ -3,7 +3,6 @@ import { AdminTitle } from "@/admin/components/AdminTitle";
 import Chart from "@/admin/components/Chart";
 import QuickActions from "@/admin/components/QuickActions";
 import StatCard from "@/admin/components/StatCard";
-import { useAuthStore } from "@/auth/store/auth.store";
 import { Users, DollarSign, ShoppingCart, TrendingUp, Eye, BarChart3 } from "lucide-react";
 
 const stats = [

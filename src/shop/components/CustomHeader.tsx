@@ -1,7 +1,7 @@
-import { Search, Menu } from "lucide-react";
+import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { Link, useParams, useSearchParams } from "react-router";
 import type { KeyboardEvent } from "react";
 import { cn } from "@/lib/utils";

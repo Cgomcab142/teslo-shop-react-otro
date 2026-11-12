@@ -1,7 +1,7 @@
 import { AdminTitle } from "@/admin/components/AdminTitle";
 import { Button } from "@/components/ui/button";
 import type { Product, Size } from "@/interfaces/product.interface";
-import { Files, SaveAll, Tag, Upload, X } from "lucide-react";
+import { SaveAll, Tag, Upload, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import { useForm } from 'react-hook-form'
@@ -40,7 +40,7 @@ export const ProductForm = ({ title, subtitle, product, onSubmit, isPending }: P
 
 
     const labelInputRef = useRef<HTMLInputElement>(null);
-    const [files, setFiles] = useState([])
+    const [files, setFiles] = useState<File[]>([])
 
     useEffect(() => {
         setFiles([])

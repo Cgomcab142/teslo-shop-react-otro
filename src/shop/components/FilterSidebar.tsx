@@ -26,12 +26,12 @@ const handlePriceChange = (price: string) => {
     setSearchParams(searchParams)
 }
 
-  const categories = [
-    { id: "tshirts", label: "Camisetas", count: 12 },
-    { id: "hoodies", label: "Sudaderas", count: 8 },
-    { id: "jackets", label: "Chaquetas", count: 6 },
-    { id: "accessories", label: "Accesorios", count: 15 },
-  ];
+  // const categories = [
+  //   { id: "tshirts", label: "Camisetas", count: 12 },
+  //   { id: "hoodies", label: "Sudaderas", count: 8 },
+  //   { id: "jackets", label: "Chaquetas", count: 6 },
+  //   { id: "accessories", label: "Accesorios", count: 15 },
+  // ];
 
   const sizes = [
     { id: "xs", label: "XS" },
@@ -42,12 +42,12 @@ const handlePriceChange = (price: string) => {
     { id: "xxl", label: "XXL" },
   ];
 
-  const colors = [
-    { id: "black", label: "Negro", color: "bg-black" },
-    { id: "white", label: "Blanco", color: "bg-white border" },
-    { id: "grey", label: "Gris", color: "bg-gray-400" },
-    { id: "navy", label: "Azul Marino", color: "bg-blue-900" },
-  ];
+  // const colors = [
+  //   { id: "black", label: "Negro", color: "bg-black" },
+  //   { id: "white", label: "Blanco", color: "bg-white border" },
+  //   { id: "grey", label: "Gris", color: "bg-gray-400" },
+  //   { id: "navy", label: "Azul Marino", color: "bg-blue-900" },
+  // ];
 
   return (
     <div className="w-64 space-y-6">
